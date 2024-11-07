@@ -1,16 +1,19 @@
 # CompiladorCalculadora
-Aquest repositori conté un la part frontal d'un compilador per a una calculadora.
+Aquest repositori conté la part frontal d'un compilador per a una calculadora.
 
-## Aprenentatges:
-  · Taula de símbols
-  · Anàlisi lèxic, sintàctic, semàntic
-  · Atributs i comprovació de tipus
-  · Utilització conjunta de Flex, Bison i Symtab
-  
+## Aprenentatges
+- Taula de símbols
+- Anàlisi lèxic, sintàctic, semàntic
+- Atributs i comprovació de tipus
+- Utilització conjunta de Flex, Bison i Symtab
+
 ## Compilació
 1. Clona el repositori:
-   `git clone https://github.com/PolPujolSantaella/CompiladorCalculadora.git
-    cd CompiladorCalculadora'
+   ```bash
+   git clone https://github.com/PolPujolSantaella/CompiladorCalculadora.git
+   cd CompiladorCalculadora
+   ```
+
 2. Compila el projecte
    `make all'
 
