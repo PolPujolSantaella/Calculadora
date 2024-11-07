@@ -15,17 +15,22 @@ Aquest repositori conté la part frontal d'un compilador per a una calculadora.
    ```
 
 2. Compila el projecte
-   `make all'
+   ```bash
+   make all
+   ```
 
 ## Execució
 Per provar el joc de proves que he realitzat només cal fer un:
-   `make eg`
+   ```bash
+   make eg
+   ```
 Aquest et genera un arxiu ex_sortida.out que conté la sortida corresponent.
 
 ## Per netejar-ho tot menys arxius fonts
-`make clean`
-
-#Descripció del Projecte
+   ```bash
+   make clean
+   ```
+# Descripció del Projecte
 Aquest projecte és la part frontal d'un compilador per a una calculadora. Permet analitzar, interpretar i executar expressions aritmètiques introduïdes per l'usuari, incloent operacions de suma, resta, multiplicació, divisió, potència, funcions trigonomètriques (sin, cos, tan) i expressions booleanes.
 
 El compilador processa les expressions a través d'un anàlisi lèxic i sintàctic, convertint l'expressió en una sèrie de tokens, verificant la sintaxi i generant el resultat calculat.
