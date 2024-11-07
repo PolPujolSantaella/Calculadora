@@ -1,0 +1,41 @@
+// assignacions
+x := 1.5
+i := 5
+z := i * (x + i) - i / 4.0
+s := "Hola"
+b := z > 3 or not (i > 0 and i <= 10) or false
+
+// expressions bàsiques
+x
+i
+z
+s
+b
+
+/*
+* expressions
+*/
+i + i * 2
+-i + x
+b or not b
+s + (s + i) + "--" + x
+
+//Funcionalitats
+a := 3 + sin(1) * 2
+c := cos(3.14159/2) + 5
+j := 10* tan(0.785398) + 2
+p := LEN(s)
+r := LEN("HOLA")
+subtext := SUBSTR(s, 1, 2) 
+subtext2 := SUBSTR("Ho", 1, 2)
+
+pi := PI
+e := E
+
+o := 100
+HEX(100)
+HEX(o)
+OCT(100)
+OCT(o)
+BIN(100)
+BIN(o)
