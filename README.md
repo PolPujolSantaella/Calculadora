@@ -47,13 +47,13 @@ verifica la sintaxis i després genera un resultat calculat.
 
 - En l'arxiu calculadora.l defineixo les regles lèxiques per el reconeixement de tokens en la calculadora. 
 
-Es defineixen patrons lèxics com parèntesis, operadors (+, - *, /) i operadors d'assignació. També gestiono els comentaris tant de línea com de bloc utilitzant expressions regulars específiques.
-
-Els tokens estàn organitzats de manera clara, però pot resultar complexe afegir més operadors o estructures.
+   Es defineixen patrons lèxics com parèntesis, operadors (+, - *, /) i operadors d'assignació. També gestiono els comentaris tant de línea com de bloc utilitzant expressions regulars específiques.
+   
+   Els tokens estàn organitzats de manera clara, però pot resultar complexe afegir més operadors o estructures.
 
 - En l'arxiu calculadora.y defineixo les regles sintàctiques, es a dir, com s'organitzen els tokens en expressions vàlides. 
 
-La gramàtica proposada utilitza una clara notació per les expressions i un suport adicional per funcions de concatenació i manipulació de cadenas. 
+   La gramàtica proposada utilitza una clara notació per les expressions i un suport adicional per funcions de concatenació i manipulació de cadenas. 
 
 - El arxiu symtab.h és una peça clau en el disseny, ja que defineix la interfície i les estructures necesàries per a la taula de símbols. Aquesta permet gestionar i emmagatzemar informació sobre els identificadors utilitzats en les expressions. Per això he modificat el camp sym_value_type per una estructura corresponent a la grmàtica.
 
